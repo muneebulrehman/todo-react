@@ -1,0 +1,25 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  background-color: rgb(233, 233, 233);
+  border-radius: 1rem;
+}
+
+.heading {
+  font-size: 3rem;
+  text-decoration: underline;
+}
