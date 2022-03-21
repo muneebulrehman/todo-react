@@ -14,10 +14,11 @@
   font-size: 1.25rem;
   padding: 1rem 0;
 }
-.btn {
+button {
   border: none;
   background: transparent;
   width: 2rem;
+  cursor: pointer;
 }
 .add-btn {
   font-size: 2rem;

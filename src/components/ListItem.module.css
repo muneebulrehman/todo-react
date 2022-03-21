@@ -1,0 +1,28 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 20rem;
+  height: 3rem;
+  padding: 0.5rem 2rem;
+  gap: 5rem;
+  border: 1px solid grey;
+}
+
+.input {
+  height: 1.25rem;
+  width: 1.25rem;
+  cursor: pointer;
+}
+
+.list-item p {
+  font-size: 1.5rem;
+  flex: 2;
+}
+
+.remove-btn {
+  font-size: 1.5rem;
+  color: red;
+  outline: none;
+  border: none;
+}
