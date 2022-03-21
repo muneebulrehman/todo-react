@@ -6,7 +6,7 @@ const Input = () => {
   return (
     <>
       <form className={classes.form}>
-        <input type="text" placeholder="Add items ...." />
+        <input className={classes.input} type="text" placeholder="Add items ...." />
         <button className={classes.btn}>
           <AiOutlinePlusCircle className={classes['add-btn']} />
         </button>

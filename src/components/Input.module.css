@@ -6,13 +6,13 @@
   background-color: #fff;
   padding: 0 2rem;
 }
-input {
+.input {
   display: block;
   outline: none;
   border: none;
-  height: 3rem;
   width: 20rem;
   font-size: 1.25rem;
+  padding: 1rem 0;
 }
 .btn {
   border: none;
@@ -25,7 +25,7 @@ input {
 }
 
 @media screen and (min-width: 768px) {
-  input {
+  .input {
     width: 32rem;
   }
 }
