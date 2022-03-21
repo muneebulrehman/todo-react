@@ -5,10 +5,10 @@ import { AiOutlinePlusCircle } from 'react-icons/ai';
 const Input = () => {
   return (
     <>
-      <form className="form">
-        <input type="text" />
-        <button className="add-btn">
-          <AiOutlinePlusCircle />
+      <form className={classes.form}>
+        <input type="text" placeholder="Add items ...." />
+        <button className={classes.btn}>
+          <AiOutlinePlusCircle className={classes['add-btn']} />
         </button>
       </form>
     </>

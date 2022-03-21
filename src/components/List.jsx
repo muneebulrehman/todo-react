@@ -3,7 +3,11 @@ import ListItem from './ListItem';
 import classes from './List.module.css';
 
 const List = () => {
-  return <div>List</div>;
+  return (
+    <ul>
+      <ListItem />
+    </ul>
+  );
 };
 
 export default List;
