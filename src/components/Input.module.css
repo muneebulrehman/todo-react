@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 0 2rem;
+}
+.input {
+  display: block;
+  outline: none;
+  border: none;
+  width: 20rem;
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+button {
+  border: none;
+  background: transparent;
+  width: 2rem;
+  cursor: pointer;
+}
+.add-btn {
+  font-size: 2rem;
+  color: yellowgreen;
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    width: 32rem;
+  }
+}
